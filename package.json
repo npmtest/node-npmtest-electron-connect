@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [electron-connect (v0.6.1)](https://github.com/Quramy/electron-connect)  [![npm package](https://img.shields.io/npm/v/npmtest-electron-connect.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-electron-connect) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-electron-connect.svg)](https://travis-ci.org/npmtest/node-npmtest-electron-connect)",
+    "description": "#### basic test coverage for  [electron-connect (v0.6.1)](https://github.com/Quramy/electron-connect)  [![npm package](https://img.shields.io/npm/v/npmtest-electron-connect.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-electron-connect) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-electron-connect.svg)](https://travis-ci.org/npmtest/node-npmtest-electron-connect)",
     "devDependencies": {
         "electron-connect": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "2017.4.27"
 }
